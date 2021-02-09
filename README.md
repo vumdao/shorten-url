@@ -7,13 +7,12 @@
   <div><b>Serverless - Shorten Long URL</b></div>
 </h1>
 
-### - There are many web apps provide the service of shortening your long url (free or charge). This ariticle introduces the way of using serverless with Cloud development toolkit (CDK)
+### - There are many web apps provide the service of shortening your long url (free or charged). This ariticle introduces the way of using serverless with Cloud development toolkit (CDK) 
 
 ### - CDK helps to create this project by coding (python language), What's its benefits?
 ###   + Infra structure as code
 ###   + Update lambda function code and just need to execute `cdk deploy`, all the code and modules will be up-to-date
 ###   + Create and destroy the structure quickly, and we can manage the structure by separate stacks such dynamodb stack, IAM stack, lambda stack and API Gateway stack.
-
 
 ![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612715356287/xIxqONMut.png)
 
@@ -80,10 +79,10 @@ ShortenURLApiGW
 ![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612709323826/R0QmcS1ZL.png)
 
 - Lambda functions:
-![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612710406792/MY9Bwp4mO.png))
+![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612710406792/MY9Bwp4mO.png)
 
 - Lambda function: create url
-![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612713128773/JHVAygCl2.png))
+![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612713128773/JHVAygCl2.png)
 
 - Lambda function: redirect url
 ![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1612713136755/l6Eyj1Hvt.png)
